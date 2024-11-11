@@ -1,0 +1,58 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.header-title {
+  font-size: 24px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding-top: 20px;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.sidebar nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar nav ul li a:hover {
+  color: #007bff;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
